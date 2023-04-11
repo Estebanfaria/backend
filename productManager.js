@@ -94,3 +94,5 @@ const producto = new ProductManager();
 // producto.addProduct('remera', 'adidas', 450, './multimedia/remera.jpeg', 231, 245)
 producto.getProducts()
 producto.getProductById(1)
+
+module.exports = ProductManager;
